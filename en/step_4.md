@@ -1,15 +1,14 @@
-## Using numbers and punctuation
-
-Improve your program, so that it also chooses from:
-
-+ Capital letters (A-Z)
-+ Numbers (0-9)
-+ Punctuation (!?.,-)
+<h2 class="c-project-heading--task">Using numbers and punctuation</h2>
 
 --- task ---
+Improve your program so that it can choose from capital letters, numbers, and punctuation.
+--- /task ---
 
-Add to your `chars` variable. 
+--- task ---
+Add capital letters, numbers, and punctuation to your `chars` variable.
+--- /task ---
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -25,12 +24,8 @@ chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?01234
 password = random.choice(chars)
 print(password)
 --- /code ---
-
---- /task ---
-
+</div>
 
 --- task ---
-
-**Test:** Click the **Run** button. 
-
+**Test:** Click the **Run** button.
 --- /task ---

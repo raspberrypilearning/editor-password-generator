@@ -1,10 +1,10 @@
-### Choosing the number of passwords
-
-Instead of always printing 3 passwords, you can allow the user to enter the number of passwords they want.
+<h2 class="c-project-heading--task">Choosing the number of passwords</h2>
 
 --- task ---
+Allow the user to choose how many passwords to generate.
+--- /task ---
 
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -30,5 +30,4 @@ for p in range(number):
         password += random.choice(chars)
     print(password)
 --- /code ---
-
---- /task ---
+</div>

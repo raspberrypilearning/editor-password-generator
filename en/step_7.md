@@ -1,11 +1,14 @@
-## Lots of passwords
-
-Allow the user to create 3 passwords at once.
+<h2 class="c-project-heading--task">Lots of passwords</h2>
 
 --- task ---
+Allow the user to create three passwords at once.
+--- /task ---
 
-Add this code to create 3 passwords:
+--- task ---
+Add this code to create three passwords.
+--- /task ---
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -27,13 +30,13 @@ for c in range(length):
     password += random.choice(chars)
 print(password)
 --- /code ---
-
---- /task ---
+</div>
 
 --- task ---
+Indent the code for creating a password so that it repeats three times.
+--- /task ---
 
-Indent the code for creating a password, so that it repeats 3 times.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -55,13 +58,10 @@ for p in range(3):
         password += random.choice(chars)
     print(password)
 --- /code ---
-
---- /task ---
+</div>
 
 --- task ---
+**Test:** Click the **Run** button.
 
-**Test:** Click the **Run** button. 
-
-You should now see 3 passwords of your chosen password length.
-
+You should now see three passwords of your chosen password length.
 --- /task ---

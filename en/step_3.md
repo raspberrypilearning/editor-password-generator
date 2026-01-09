@@ -1,35 +1,33 @@
-## Random characters
-
-Let's create a program to choose a random character for your password.
+<h2 class="c-project-heading--task">Random characters</h2>
 
 --- task ---
-
-Open the [Password Generator starter project](https://editor.raspberrypi.org/en/projects/password-generator-starter){:target="_blank"}.
-
+Create a program that chooses a random character for your password.
 --- /task ---
 
 --- task ---
-
 Create a list of characters, stored in a variable called `chars`.
+--- /task ---
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
 line_number_start: 3
+line_highlights:
 ---
 import random
 
 chars = 'abcdefghijklmnopqrstuvwxyz'
 --- /code ---
-
---- /task ---
+</div>
 
 --- task ---
+Choose a random character from the list, and store it in a variable called `password`.
+--- /task ---
 
-Now you can choose a random character from the list, and store it in a variable called `password`.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -44,13 +42,13 @@ chars = 'abcdefghijklmnopqrstuvwxyz'
 
 password = random.choice(chars)
 --- /code ---
-
---- /task ---
+</div>
 
 --- task ---
+Print your (very short!) password to the screen.
+--- /task ---
 
-Finally, you can print your (very short!) password to the screen.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -66,25 +64,21 @@ chars = 'abcdefghijklmnopqrstuvwxyz'
 password = random.choice(chars)
 print(password)
 --- /code ---
-
---- /task ---
+</div>
 
 --- task ---
-
-**Test:** Click the **Run** button. 
+**Test:** Click the **Run** button.
 
 You should see a single random character on the screen.
 
 If you run your program a few times, you should see different characters appear.
-
 --- /task ---
 
-A password isn't very secure if it only contains letters. 
-
 --- task ---
+Add some numbers to your `chars` variable to make the password more secure.
+--- /task ---
 
-Add some numbers to your `chars` variable.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -100,7 +94,9 @@ chars = 'abcdefghijklmnopqrstuvwxyz1234567890'
 password = random.choice(chars)
 print(password)
 --- /code ---
+</div>
 
+--- task ---
+**Test:** Click the **Run** button again a few times.  
+You should sometimes see a number chosen.
 --- /task ---
-
-**Test:** Click the **Run** button again a few times, and you should see that sometimes a number is chosen.
