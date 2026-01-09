@@ -1,28 +1,102 @@
-<h2 class="c-project-heading--task">How secure is your password?</h2>
+<h2 class="c-project-heading--task">Random characters</h2>
 
 --- task ---
-Find out how long it would take a computer to guess your password using a brute force attack.
+Create a program that chooses a random character for your password.
 --- /task ---
 
 --- task ---
-Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>, which is a website for finding out how secure your passwords are.
+Create a list of characters, stored in a variable called `chars`.
+--- /task ---
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 3
+line_highlights:
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz'
+--- /code ---
+</div>
+
+--- task ---
+Choose a random character from the list, and store it in a variable called `password`.
+--- /task ---
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 5
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz'
+
+password = random.choice(chars)
+--- /code ---
+</div>
+
+--- task ---
+Print your (very short!) password to the screen.
+--- /task ---
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz'
+
+password = random.choice(chars)
+print(password)
+--- /code ---
+</div>
+
+--- task ---
+**Test:** Click the **Run** button.
+
+You should see a single random character on the screen.
+
+If you run your program a few times, you should see different characters appear.
 --- /task ---
 
 --- task ---
-Type in "letmein" (Let me in) as the password. You'll see that a computer would guess this password extremely quickly!
+Add some numbers to your `chars` variable to make the password more secure.
 --- /task ---
 
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 3
+---
+import random
+
+chars = 'abcdefghijklmnopqrstuvwxyz1234567890'
+
+password = random.choice(chars)
+print(password)
+--- /code ---
+</div>
+
 --- task ---
-Review why "letmein" is a bad password:
-
-+ It's a very __common__ password (one of the 15 most used passwords). A computer would guess these first.
-+ It contains words from the __dictionary__. A computer would also try these passwords first.
-+ It's very __short__. It would take a computer more time to guess a longer password.
-+ It only contains __letters__. Passwords are more secure if they also contain numbers and punctuation.
---- /task ---
-
---- task ---
-Try entering a dictionary word.
-
-How long would it take a computer to guess that password?
+**Test:** Click the **Run** button again a few times.  
+You should sometimes see a number chosen.
 --- /task ---

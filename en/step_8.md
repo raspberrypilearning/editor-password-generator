@@ -1,33 +1,28 @@
-<h2 class="c-project-heading--task">Choosing the number of passwords</h2>
+<h2 class="c-project-heading--task">Challenge: Create a better password</h2>
 
 --- task ---
-Allow the user to choose how many passwords to generate.
+Use the Password Generator starter project to generate a password that would take more than 1,000 years to crack, but isn’t too long to type.
 --- /task ---
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 6-7, 12
----
-#!/bin/python3
-import random
+--- task ---
+Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>.
+--- /task ---
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+<div class="c-project-output">
+<img src="images/passwords-13000.png" alt="screenshot">
+</div>
 
-number = input('number of passwords?')
-number = int(number)
+--- task ---
 
-length = input('password length?')
-length = int(length)
+Generate and test passwords until you find one that meets the goal.
 
-for p in range(number):
-    password = ''
-    for c in range(length):
-        password += random.choice(chars)
-    print(password)
---- /code ---
+--- /task ---
+
+<div class="c-project-callout c-project-callout--tip">
+Remember: a password is harder to guess if it is:
++ Long
++ Not a dictionary word
++ A mix of letters, numbers, and punctuation
+
+These passwords help protect important accounts. Many adults use a password manager to remember lots of strong passwords.
 </div>
