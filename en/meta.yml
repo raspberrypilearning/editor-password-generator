@@ -18,14 +18,13 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: What you will make
-- title: How secure is your password?
-  completion:
-  - engaged
 - title: Random characters
   completion:
-  - internal
+  - engaged
 - title: Using numbers and punctuation
 - title: A random password
+  completion:
+  - internal
 - title: Choosing a password length
 - title: Lots of passwords
 - title: Choosing the number of passwords
