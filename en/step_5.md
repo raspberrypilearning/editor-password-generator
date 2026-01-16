@@ -11,7 +11,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 5-6,9
+line_highlights: 5-6,9-10
 ---
 import random   # Import tools for choosing random items
 
@@ -27,6 +27,14 @@ for c in range(length):              # Repeat as many times as the user chose
 print(password)                      # Show the final password
 
 --- /code ---
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+- Make sure that the line beneath your `for loop` is indented with four spaces.
+
 </div>
 
 --- task ---
