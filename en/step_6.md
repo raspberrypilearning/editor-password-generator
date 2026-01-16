@@ -11,7 +11,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 7-12
+line_highlights: 8-12
 ---
 import random   # Import tools for choosing random items
 
