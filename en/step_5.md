@@ -1,11 +1,7 @@
 <h2 class="c-project-heading--task">Choosing a password length</h2>
 
 --- task ---
-Allow the user to choose the length of their password.
---- /task ---
-
---- task ---
-Ask the user to input a password length, and store it in a variable called `length`.
+Allow the user to choose how long their password should be.
 --- /task ---
 
 <div class="c-project-code">
@@ -15,78 +11,27 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 5
+line_highlights: 5-6,9
 ---
-import random
+import random   # Import tools for choosing random items
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'  # Characters the password can use
 
-length = input('password length?')
+length = input('password length?')   # Ask the user how long the password should be
+length = int(length)                 # Convert the input into a whole number
 
-password = ''
-for c in range(10):
-    password += random.choice(chars)
-print(password)
+password = ''                        # Start with an empty password
+for c in range(length):              # Repeat as many times as the user chose
+    password += random.choice(chars) # Add one random character each time
+
+print(password)                      # Show the final password
+
 --- /code ---
 </div>
 
 --- task ---
-Use `int()` to turn the user's input into a whole number.
+**Test:** Click **Run**.
+
+Enter a number when asked.  
+The password printed should be exactly that length.
 --- /task ---
-
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 6
----
-import random
-
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
-
-length = input('password length?')
-length = int(length)
-
-password = ''
-for c in range(10):
-    password += random.choice(chars)
-print(password)
---- /code ---
-</div>
-
---- task ---
-Use your `length` variable to repeat as many times as the user entered.
---- /task ---
-
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 9
----
-import random
-
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
-
-length = input('password length?')
-length = int(length)
-
-password = ''
-for c in range(length):
-    password += random.choice(chars)
-print(password)
---- /code ---
-</div>
-
---- task ---
-**Test:** Click the **Run** button.
-
-The password created should be the length entered by the user.
---- /task ---
-```
