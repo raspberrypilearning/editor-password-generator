@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Random characters</h2>
 
 --- task ---
-Create a program that generates and prints a single random characte.
+Create a program that generates and prints a single random character.
 --- /task ---
 
 <div class="c-project-code">
