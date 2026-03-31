@@ -1,8 +1,7 @@
-<h2 class="c-project-heading--task">Choosing a password length</h2>
+<h2 class="c-project-heading--task">Lots of passwords</h2>
 
---- task ---
-Allow the user to choose how long their password should be.
---- /task ---
+### Step 1
+Allow the user to create several passwords at once using a **loop*.
 
 <div class="c-project-code">
 --- code ---
@@ -11,36 +10,33 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 5-6,10
+line_highlights: 8-12
 ---
 import random   # Import tools for choosing random items
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'  # Characters the password can use
 
-length = input('password length?')   # Ask the user how long the password should be
+length = input('password length?')   # Ask how long each password should be
 length = int(length)                 # Convert the input into a whole number
 
-password = ''                        # Start with an empty password
-
-for c in range(length):              # Repeat as many times as the user chose
-    password += random.choice(chars) # Add one random character each time
-
-print(password)                      # Show the final password
+for p in range(3):                   # Repeat three times to make three passwords
+    password = ''                    # Start with an empty password
+    for c in range(length):          # Build one password character by character
+        password += random.choice(chars)
+    print(password)                  # Show each completed password
 
 --- /code ---
 </div>
-
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-- Make sure that the line beneath your `for loop` is indented with four spaces.
+- Make sure that the lines beneath your `for loop` keep the same indentation when you **nest** them!
 
 </div>
 
---- task ---
+### Step 2
 **Test:** Click **Run**.
 
 Enter a number when asked.  
-The password printed should be exactly that length.
---- /task ---
+You should see **three passwords**, each the length you chose.

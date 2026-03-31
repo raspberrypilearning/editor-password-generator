@@ -16,12 +16,12 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
+landing: true
 steps:
-- title: What you will make
 - title: Random characters
+- title: Using numbers and punctuation
   completion:
   - engaged
-- title: Using numbers and punctuation
 - title: A random password
   completion:
   - internal
@@ -30,5 +30,5 @@ steps:
 - title: Choosing the number of passwords
   completion:
   - external
-- title: Challenge - Create a better password
+- title: "Challenge: Create a better password"
   challenge: true
