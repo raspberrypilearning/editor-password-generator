@@ -1,11 +1,7 @@
-<h2 class="c-project-heading--task">A random password</h2>
+<h2 class="c-project-heading--task">Choosing a password length</h2>
 
---- task ---
-Improve your program so it creates a longer password by adding random characters one at a time.
---- /task ---
-
-In this step, you will write all the code in one go.  
-The comments explain how each line helps build the password.
+### Step 1
+Allow the user to choose how long their password should be.
 
 <div class="c-project-code">
 --- code ---
@@ -14,25 +10,35 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 5,7-8
+line_highlights: 5-6,10
 ---
 import random   # Import tools for choosing random items
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'   # Characters the password can use (letters, numbers, and symbols)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'  # Characters the password can use
 
-password = ''     # Start with an empty password
+length = input('password length?')   # Ask the user how long the password should be
+length = int(length)                 # Convert the input into a whole number
 
-for c in range(10):     # Repeat 10 times
-    password += random.choice(chars)    # Add one random character to the password each time
+password = ''                        # Start with an empty password
 
-print(password)     # Show the final password
+for c in range(length):              # Repeat as many times as the user chose
+    password += random.choice(chars) # Add one random character each time
+
+print(password)                      # Show the final password
 
 --- /code ---
 </div>
 
---- task ---
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+- Make sure that the line beneath your `for loop` is indented with four spaces.
+
+</div>
+
+### Step 2
 **Test:** Click **Run**.
 
-You should see a password that is 10 characters long.  
-Try changing the number `10` to a bigger number, then run your code again to see how the password changes.
---- /task ---
+Enter a number when asked.  
+The password printed should be exactly that length.

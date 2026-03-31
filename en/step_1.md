@@ -1,18 +1,29 @@
-<h2 class="c-project-heading--task">What you will make</h2>
+<h2 class="c-project-heading--task">Random characters</h2>
 
---- task ---
-Create a program that generates random passwords to help protect your personal information online.
---- /task ---
+### Step 1
+Create a program that generates and prints a single random character.
 
---- task ---
-The passwords will be random, so they are very hard for anyone else to guess.
---- /task ---
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 3-6
+---
+import random                     # Import tools for choosing random items
 
-<div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-password-generator-complete" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+chars = 'abcdefghijklmnopqrstuvwxyz1234567890'  # A string of characters the password can use (letters and numbers)
+
+password = random.choice(chars)   # Pick one random character from chars
+print(password)                   # Show the password on the screen
+
+--- /code ---
 </div>
 
---- task ---
-Click **Run** to try the finished password generator.
---- /task ---
+### Step 2
+**Test:** Click **Run**.
 
+You should see a single character printed on the screen.  
+Run the program several times — the character should change, and sometimes it should be a number.

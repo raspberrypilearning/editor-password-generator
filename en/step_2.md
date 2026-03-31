@@ -1,8 +1,10 @@
-<h2 class="c-project-heading--task">Random characters</h2>
+<h2 class="c-project-heading--task">Using numbers and punctuation</h2>
 
---- task ---
-Create a program that generates and prints a single random character.
---- /task ---
+### Step 1
+Improve your program so that it can choose from capital letters, numbers, and punctuation.
+
+### Step 2
+Add capital letters, numbers, and punctuation to your `chars` variable.
 
 <div class="c-project-code">
 --- code ---
@@ -11,21 +13,16 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 3-6
+line_highlights: 3
 ---
-import random                     # Import tools for choosing random items
+import random
 
-chars = 'abcdefghijklmnopqrstuvwxyz1234567890'  # A string of characters the password can use (letters and numbers)
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
 
-password = random.choice(chars)   # Pick one random character from chars
-print(password)                   # Show the password on the screen
-
+password = random.choice(chars)
+print(password)
 --- /code ---
 </div>
 
---- task ---
-**Test:** Click **Run**.
-
-You should see a single character printed on the screen.  
-Run the program several times — the character should change, and sometimes it should be a number.
---- /task ---
+### Step 3
+**Test:** Click the **Run** button.
