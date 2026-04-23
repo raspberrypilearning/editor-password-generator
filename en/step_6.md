@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Choosing the number of passwords</h2>
 
-### Step 1
 Allow the user to choose how many passwords to generate.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 --- code ---
@@ -32,8 +33,9 @@ for p in range(number):                  # Repeat for the number of passwords ch
 --- /code ---
 </div>
 
-### Step 2
-**Test:** Click **Run**.
+## Now run your code
+
+Click **Run**.
 
 Enter two numbers when asked.  
 You should see the chosen number of passwords, each the length you selected.

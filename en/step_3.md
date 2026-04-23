@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">A random password</h2>
 
-### Step 1
 Improve your program so it creates a longer password by adding random characters one at a time.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 In this step, you will write all the code in one go.  
 The comments explain how each line helps build the password.
@@ -29,8 +30,9 @@ print(password)     # Show the final password
 --- /code ---
 </div>
 
-### Step 2
-**Test:** Click **Run**.
+## Now run your code
+
+Click **Run**.
 
 You should see a password that is 10 characters long.  
 Try changing the number `10` to a bigger number, then run your code again to see how the password changes.

@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Choosing a password length</h2>
 
-### Step 1
 Allow the user to choose how long their password should be.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 --- code ---
@@ -29,16 +30,17 @@ print(password)                      # Show the final password
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - Make sure that the line beneath your `for loop` is indented with four spaces.
 
 </div>
 
-### Step 2
-**Test:** Click **Run**.
+## Now run your code
+
+Click **Run**.
 
 Enter a number when asked.  
 The password printed should be exactly that length.

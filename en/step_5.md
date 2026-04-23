@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Lots of passwords</h2>
 
-### Step 1
 Allow the user to create several passwords at once using a **loop*.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 --- code ---
@@ -27,16 +28,17 @@ for p in range(3):                   # Repeat three times to make three password
 
 --- /code ---
 </div>
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - Make sure that the lines beneath your `for loop` keep the same indentation when you **nest** them!
 
 </div>
 
-### Step 2
-**Test:** Click **Run**.
+## Now run your code
+
+Click **Run**.
 
 Enter a number when asked.  
 You should see **three passwords**, each the length you chose.
