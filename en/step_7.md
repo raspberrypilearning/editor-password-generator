@@ -28,4 +28,4 @@ These passwords help protect important accounts. Many adults use a password mana
 
 ## Now run your code
 
-Confirm the observable result.
+Generate and test passwords until you find one that the checker says would take more than 1,000 years to crack.
