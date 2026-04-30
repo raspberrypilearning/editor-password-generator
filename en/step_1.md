@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Random characters</h2>
 
-### Step 1
 Create a program that generates and prints a single random character.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 --- code ---
@@ -22,8 +23,9 @@ print(password)                   # Show the password on the screen
 --- /code ---
 </div>
 
-### Step 2
-**Test:** Click **Run**.
+## Now run your code
+
+Click **Run**.
 
 You should see a single character printed on the screen.  
 Run the program several times — the character should change, and sometimes it should be a number.

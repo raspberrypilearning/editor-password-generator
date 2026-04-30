@@ -1,16 +1,18 @@
 <h2 class="c-project-heading--task">Challenge: Create a better password</h2>
 
-### Step 1
 Use the Password Generator starter project to generate a password that would take more than 1,000 years to crack, but isn’t too long to type.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
+
 Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>.
 
 <div class="c-project-output">
 <img src="images/passwords-13000.png" alt="screenshot">
 </div>
 
-### Step 3
+## Step 2
 
 Generate and test passwords until you find one that meets the goal.
 
@@ -23,3 +25,7 @@ Remember: a password is harder to guess if it is:
 
 These passwords help protect important accounts. Many adults use a password manager to remember lots of strong passwords.
 </div>
+
+## Now run your code
+
+Generate and test passwords until you find one that the checker says would take more than 1,000 years to crack.

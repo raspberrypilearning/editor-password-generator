@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Using numbers and punctuation</h2>
 
-### Step 1
 Improve your program so that it can choose from capital letters, numbers, and punctuation.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Add capital letters, numbers, and punctuation to your `chars` variable.
 
 <div class="c-project-code">
@@ -24,5 +24,6 @@ print(password)
 --- /code ---
 </div>
 
-### Step 3
-**Test:** Click the **Run** button.
+## Now run your code
+
+Click the **Run** button.
