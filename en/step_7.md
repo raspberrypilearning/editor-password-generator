@@ -2,8 +2,6 @@
 
 Use the Password Generator starter project to generate a password that would take more than 1,000 years to crack, but isn’t too long to type.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>.

@@ -2,8 +2,6 @@
 
 Improve your program so that it can choose from capital letters, numbers, and punctuation.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Add capital letters, numbers, and punctuation to your `chars` variable.
 
 <div class="c-project-code">

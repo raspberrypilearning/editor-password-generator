@@ -2,8 +2,6 @@
 
 Improve your program so it creates a longer password by adding random characters one at a time.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 In this step, you will write all the code in one go.  
 The comments explain how each line helps build the password.
 
