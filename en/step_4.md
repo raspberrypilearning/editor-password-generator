@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Choosing a password length</h2>
+<h2 class="c-project-heading--task">Choose a password length</h2>
 
 Allow the user to choose how long their password should be.
 
@@ -13,9 +13,9 @@ line_highlights: 5-6,10
 ---
 import random   # Import tools for choosing random items
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'  # Characters the password can use
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?1234567890'  # Characters the password can use
 
-length = input('password length?')   # Ask the user how long the password should be
+length = input('Password length?')   # Ask the user how long the password should be
 length = int(length)                 # Convert the input into a whole number
 
 password = ''                        # Start with an empty password
@@ -32,13 +32,14 @@ print(password)                      # Show the final password
 
 <div class="c-project-callout c-project-callout--tip">
 
-- Make sure that the line beneath your `for loop` is indented with four spaces.
+Make sure that the line beneath your `for` loop is indented with four spaces.
 
 </div>
 
 ## Now run your code
 
-Click **Run**.
+Click on **Run**.
 
-Enter a number when asked.  
-The password printed should be exactly that length.
+Enter a number when asked.
+
+The password that is printed should be exactly that length.

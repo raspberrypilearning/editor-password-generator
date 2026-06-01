@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Lots of passwords</h2>
 
-Allow the user to create several passwords at once using a **loop*.
+Use a **loop** to allow the user to create several passwords at once.
 
 <div class="c-project-code">
 --- code ---
@@ -13,9 +13,9 @@ line_highlights: 8-12
 ---
 import random   # Import tools for choosing random items
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'  # Characters the password can use
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?1234567890'  # Characters the password can use
 
-length = input('password length?')   # Ask how long each password should be
+length = input('Password length?')   # Ask how long each password should be
 length = int(length)                 # Convert the input into a whole number
 
 for p in range(3):                   # Repeat three times to make three passwords
@@ -30,13 +30,14 @@ for p in range(3):                   # Repeat three times to make three password
 
 <div class="c-project-callout c-project-callout--tip">
 
-- Make sure that the lines beneath your `for loop` keep the same indentation when you **nest** them!
+Make sure that the lines beneath your `for` loop keep the same indentation when you **nest** them!
 
 </div>
 
 ## Now run your code
 
-Click **Run**.
+Click on **Run**.
 
-Enter a number when asked.  
+Enter a number when asked.
+
 You should see **three passwords**, each the length you chose.

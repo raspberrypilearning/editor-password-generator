@@ -1,8 +1,8 @@
-<h2 class="c-project-heading--task">Using numbers and punctuation</h2>
+<h2 class="c-project-heading--task">Use capital letters and punctuation</h2>
 
-Improve your program so that it can choose from capital letters, numbers, and punctuation.
+To improve your program, allow it to choose from capital letters and punctuation too.
 
-Add capital letters, numbers, and punctuation to your `chars` variable.
+Add capital letters and punctuation to your `chars` variable.
 
 <div class="c-project-code">
 --- code ---
@@ -15,7 +15,7 @@ line_highlights: 3
 ---
 import random
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789'
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?1234567890'
 
 password = random.choice(chars)
 print(password)
@@ -24,4 +24,4 @@ print(password)
 
 ## Now run your code
 
-Click the **Run** button.
+Click on the **Run** button.
