@@ -23,7 +23,8 @@ print(password)                   # Show the password on the screen
 
 ## Now run your code
 
-Click **Run**.
+Click on **Run**.
 
-You should see a single character printed on the screen.  
-Run the program several times — the character should change, and sometimes it should be a number.
+You should see a single character printed on the screen.
+
+Run the program several times. The character should change, and sometimes it should be a number.
