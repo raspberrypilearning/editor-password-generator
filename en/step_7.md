@@ -14,7 +14,6 @@ Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_bla
 
 Generate and test passwords until you find one that meets the goal.
 
-
 <div class="c-project-callout c-project-callout--tip">
 Remember: a password is harder to guess if it is:
 + Long
@@ -23,7 +22,3 @@ Remember: a password is harder to guess if it is:
 
 These passwords help protect important accounts. Many adults use a password manager to remember lots of strong passwords.
 </div>
-
-## Now run your code
-
-Generate and test passwords until you find one that the checker says would take more than 1,000 years to crack.
