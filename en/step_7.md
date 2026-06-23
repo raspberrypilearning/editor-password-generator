@@ -7,7 +7,7 @@ Use the Password Generator starter project to generate a password that would tak
 Go to <a href="https://www.security.org/how-secure-is-my-password/" target="_blank">www.security.org/how-secure-is-my-password/</a>.
 
 <div class="c-project-output">
-<img src="images/passwords-13000.png" alt="screenshot">
+<img src="images/password_secure.png" alt="screenshot">
 </div>
 
 ## Step 2
