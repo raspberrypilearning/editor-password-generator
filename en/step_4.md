@@ -1,16 +1,8 @@
-<h2 class="c-project-heading--task">Choose a password length</h2>
+## Choose a password length
 
 Allow the user to choose how long their password should be.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 5-6,10
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="5-6,10"
 import random   # Import tools for choosing random items
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?1234567890'  # Characters the password can use
@@ -25,16 +17,10 @@ for c in range(length):              # Repeat as many times as the user chose
 
 print(password)                      # Show the final password
 
---- /code ---
-</div>
+```
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-Make sure that the line beneath your `for` loop is indented with four spaces.
-
-</div>
+> [!TIP]
+> Make sure that the line beneath your `for` loop is indented with four spaces.
 
 ## Now run your code
 
