@@ -1,16 +1,8 @@
-<h2 class="c-project-heading--task">Choose a number of passwords</h2>
+## Choose a number of passwords
 
 Allow the user to choose how many passwords to generate.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 6-7,12
----
+```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="6-7,12"
 import random   # Import tools for choosing random items
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?1234567890'  # Characters the password can use
@@ -27,13 +19,12 @@ for p in range(number):                  # Repeat for the number of passwords ch
         password += random.choice(chars)
     print(password)                      # Show each completed password
 
---- /code ---
-</div>
+```
 
 ## Now run your code
 
 Click on **Run**.
 
-Enter two numbers when asked.  
+Enter two numbers when asked.
 
 You should see your chosen number of passwords, each the length you selected.
