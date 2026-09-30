@@ -1,3 +1,4 @@
 name: 'Password Generator - Complete'
 identifier: 'editor-password-generator-complete'
 type: 'python'
+build: true
